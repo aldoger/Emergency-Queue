@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pongo\\source\\repos\\Emergency\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\pongo\\source\\repos\\emergency\\emergency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|solutionrelative:emergency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\pongo\\source\\repos\\emergency\\emergency\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|solutionrelative:emergency\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Queue.cs",
+              "DocumentMoniker": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Queue.cs",
+              "RelativeDocumentMoniker": "Emergency\\Queue.cs",
+              "ToolTip": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Queue.cs",
+              "RelativeToolTip": "Emergency\\Queue.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAAwA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:40:40.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Program.cs",
+              "RelativeDocumentMoniker": "Emergency\\Program.cs",
+              "ToolTip": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Program.cs",
+              "RelativeToolTip": "Emergency\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T15:40:18.401Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
