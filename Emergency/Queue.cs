@@ -9,14 +9,16 @@ namespace Emergency;
 
 public class Node
 {
+    public long Nik;
     public string Nama;
     public int Umur;
     public string Alamat;
     public string Kondisi;
     public int Number_Priority;
-
-    public Node(string name, int age,string alamat, string kondisi)
+    
+    public Node(long nik, string name, int age,string alamat, string kondisi)
     {
+        this.Nik = nik;
         this.Nama = name;
         this.Umur = age;
         this.Alamat = alamat;

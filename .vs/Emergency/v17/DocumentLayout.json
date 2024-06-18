@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Pongo\\source\\repos\\Emergency\\",
+  "WorkspaceRootPath": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\pongo\\source\\repos\\emergency\\emergency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\aldin\\desktop\\program_kuliah\\sem_2\\struktur data\\praktikum\\final\\emergency-queue\\emergency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|solutionrelative:emergency\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\pongo\\source\\repos\\emergency\\emergency\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\aldin\\desktop\\program_kuliah\\sem_2\\struktur data\\praktikum\\final\\emergency-queue\\emergency\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|solutionrelative:emergency\\linkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\aldin\\desktop\\program_kuliah\\sem_2\\struktur data\\praktikum\\final\\emergency-queue\\emergency\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|solutionrelative:emergency\\hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|c:\\users\\aldin\\desktop\\program_kuliah\\sem_2\\struktur data\\praktikum\\final\\emergency-queue\\emergency\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8060B962-D249-4A9D-94E5-287CF4D216DA}|Emergency\\Emergency.csproj|solutionrelative:emergency\\queue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,21 +26,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "LinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\LinkedList.cs",
+              "RelativeDocumentMoniker": "Emergency\\LinkedList.cs",
+              "ToolTip": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\LinkedList.cs",
+              "RelativeToolTip": "Emergency\\LinkedList.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowD0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T02:52:07.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hash.cs",
+              "DocumentMoniker": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\Hash.cs",
+              "RelativeDocumentMoniker": "Emergency\\Hash.cs",
+              "ToolTip": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\Hash.cs",
+              "RelativeToolTip": "Emergency\\Hash.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T02:51:56.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Queue.cs",
-              "DocumentMoniker": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Queue.cs",
+              "DocumentMoniker": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\Queue.cs",
               "RelativeDocumentMoniker": "Emergency\\Queue.cs",
-              "ToolTip": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Queue.cs",
+              "ToolTip": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\Queue.cs",
               "RelativeToolTip": "Emergency\\Queue.cs",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAAwA8AAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T15:40:40.566Z",
               "EditorCaption": ""
@@ -41,11 +71,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\Program.cs",
               "RelativeDocumentMoniker": "Emergency\\Program.cs",
-              "ToolTip": "C:\\Users\\Pongo\\source\\repos\\Emergency\\Emergency\\Program.cs",
+              "ToolTip": "C:\\Users\\Aldin\\Desktop\\Program_Kuliah\\Sem_2\\Struktur Data\\Praktikum\\Final\\Emergency-Queue\\Emergency\\Program.cs",
               "RelativeToolTip": "Emergency\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T15:40:18.401Z",
               "EditorCaption": ""
