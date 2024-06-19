@@ -28,7 +28,7 @@ class Program
                     Console.WriteLine("Antrian penuh tidak dapat menambahkan pasien");
                 }
                 Console.Write("NIK: ");
-                long nik = int.Parse(Console.ReadLine());
+                long nik = Int64.Parse(Console.ReadLine());
                 Console.Write("Nama: ");
                 string nama = Console.ReadLine();
                 Console.Write("Umur: ");
@@ -78,7 +78,7 @@ class Program
             if(operasi == 4)
             {
                 Console.Write("Masukkan nomor NIK Pasien yang ingin diambil riwayatnya: ");
-                long nik = int.Parse(Console.ReadLine());
+                long nik = Int64.Parse(Console.ReadLine());
                 Console.Write(newHashTable.Retrieve(nik));
             }
 

@@ -21,20 +21,20 @@ namespace Emergency
             }
         }
 
-        private int HashFunction(long key)
+        private long HashFunction(long key)
         {
-            return (int)(key % _size);
+            return (long)(key % _size);
         }
 
         public void Insert(long key, string value, string kondisi)
         {
-            int index = HashFunction(key);
+            long index = HashFunction(key);
             _hashTable[index].Insert(key, value, kondisi);
         }
 
         public string Retrieve(long key)
         {
-            int index = HashFunction(key);
+            long index = HashFunction(key);
             return _hashTable[index].Retrieve(key);
         }
     }

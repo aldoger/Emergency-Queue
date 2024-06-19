@@ -51,15 +51,19 @@ namespace Emergency
         public string Retrieve(long key)
         {
             Node current = _head;
+            StringBuilder stringResult = new StringBuilder();
+
             while (current != null)
             {
                 if (current._key == key)
                 {
-                    return $"Pasien dengan NIK: {key}, atas nama {current._value}, memiliki kondisi {current.Kondisi} \n";
+                    stringResult.Append($"Pasien dengan NIK: {key}, atas nama {current._value}, memiliki kondisi {current.Kondisi} \n");
                 }
                 current = current._next;
             }
-            return null;
+
+            string result = stringResult.ToString();
+            return result ?? null;
         }
     }
 }
