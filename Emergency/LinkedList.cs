@@ -55,7 +55,7 @@ namespace Emergency
             {
                 if (current._key == key)
                 {
-                    return $"Pasien dengan NIK: {key}, atas nama {current._value}, memiliki kondisi {current.Kondisi}";
+                    return $"Pasien dengan NIK: {key}, atas nama {current._value}, memiliki kondisi {current.Kondisi} \n";
                 }
                 current = current._next;
             }

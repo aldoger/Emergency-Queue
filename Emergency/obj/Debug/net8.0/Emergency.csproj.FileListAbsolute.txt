@@ -12,3 +12,18 @@ C:\Users\Pongo\source\repos\Emergency\Emergency\obj\Debug\net8.0\refint\Emergenc
 C:\Users\Pongo\source\repos\Emergency\Emergency\obj\Debug\net8.0\Emergency.pdb
 C:\Users\Pongo\source\repos\Emergency\Emergency\obj\Debug\net8.0\Emergency.genruntimeconfig.cache
 C:\Users\Pongo\source\repos\Emergency\Emergency\obj\Debug\net8.0\ref\Emergency.dll
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\bin\Debug\net8.0\Emergency.exe
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\bin\Debug\net8.0\Emergency.deps.json
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\bin\Debug\net8.0\Emergency.runtimeconfig.json
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\bin\Debug\net8.0\Emergency.dll
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\bin\Debug\net8.0\Emergency.pdb
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.GeneratedMSBuildEditorConfig.editorconfig
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.AssemblyInfoInputs.cache
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.AssemblyInfo.cs
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.csproj.CoreCompileInputs.cache
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.sourcelink.json
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.dll
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\refint\Emergency.dll
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.pdb
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\Emergency.genruntimeconfig.cache
+C:\TUGAS KULIAH\StrukDat\FinalProjectDSA\Emergency-Queue\Emergency\obj\Debug\net8.0\ref\Emergency.dll

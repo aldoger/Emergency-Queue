@@ -23,6 +23,10 @@ class Program
 
             if(operasi == 1)
             {
+                if(emergencyQueue.Size == 10)
+                {
+                    Console.WriteLine("Antrian penuh tidak dapat menambahkan pasien");
+                }
                 Console.Write("NIK: ");
                 long nik = int.Parse(Console.ReadLine());
                 Console.Write("Nama: ");
@@ -39,31 +43,48 @@ class Program
             if(operasi == 2)
             {
                 Node PasienSelanjutnya = emergencyQueue.LihatAntrian();
-                Console.WriteLine("Pasien selanjutnya: ");
-                Console.WriteLine($"Nama: {PasienSelanjutnya.Nama}");
-                Console.WriteLine($"Umur: {PasienSelanjutnya.Umur}");
-                Console.WriteLine($"Alamat: {PasienSelanjutnya.Alamat}");
-                Console.WriteLine();
+                if (PasienSelanjutnya != null)
+                {
+                    Console.WriteLine("Pasien selanjutnya: ");
+                    Console.WriteLine($"Nama: {PasienSelanjutnya.Nama}");
+                    Console.WriteLine($"Umur: {PasienSelanjutnya.Umur}");
+                    Console.WriteLine($"Alamat: {PasienSelanjutnya.Alamat}");
+                    Console.WriteLine();
+                }
+                else
+                {
+                    Console.WriteLine("Antrian kosong. Tolong masukan pasien terlebih dahulu");
+                }
             }
 
             if (operasi == 3)
             {
-                Node PasienSelanjutnya = emergencyQueue.LihatAntrian();
-                Console.WriteLine("Pasien selanjutnya: ");
-                Console.WriteLine($"Nama: {PasienSelanjutnya.Nama}");
-                Console.WriteLine($"Umur: {PasienSelanjutnya.Umur}");
-                Console.WriteLine($"Alamat: {PasienSelanjutnya.Alamat}");
-                Console.WriteLine("Penanganan pasien telah selesai");
-                emergencyQueue.Delete();
 
-                newHashTable.Insert(PasienSelanjutnya.Nik, PasienSelanjutnya.Nama, PasienSelanjutnya.Kondisi);
+                Node PasienSelanjutnya = emergencyQueue.LihatAntrian();
+                if (PasienSelanjutnya != null)
+                {
+                    Console.WriteLine($"Penanganan pasien bernama {PasienSelanjutnya.Nama} telah selesai");
+                    emergencyQueue.Delete();
+
+                    newHashTable.Insert(PasienSelanjutnya.Nik, PasienSelanjutnya.Nama, PasienSelanjutnya.Kondisi);
+                }
+                else
+                {
+                    Console.WriteLine("Antrian kosong. Tolong masukan pasien terlebih dahulu");
+                }
+
             }
 
             if(operasi == 4)
             {
-                Console.Write("Masukkan nomor NIK Pasien yang ingin diambil riwayatnya");
+                Console.Write("Masukkan nomor NIK Pasien yang ingin diambil riwayatnya: ");
                 long nik = int.Parse(Console.ReadLine());
                 Console.Write(newHashTable.Retrieve(nik));
+            }
+
+            if (operasi == 5)
+            {
+                flag = false;
             }
         }
 
